@@ -1,0 +1,29 @@
+.market-card-wrapper {
+	width: 196px;
+	border: 0.5px solid #848484;
+	border-radius: 16px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.market-card-cost {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.market-card-title {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+
+.market-card-button {
+	width: 100%;
+}
+
+.market-card-rating {
+	margin-bottom: 6px;
+}

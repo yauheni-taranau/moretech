@@ -1,0 +1,50 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.0.167:5432/moretech
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+
+nft:
+  url: https://hackathon.lsp.team/hk/v1
+
+rewards:
+  mostLikedComments:
+    1: 3
+    2: 2
+    3: 1
+  mostTTTWins:
+    1: 3
+    2: 2
+    3: 1
+  mostLikedNews:
+    1: 3
+    2: 2
+    3: 1
+
+app:
+  host: 192.168.0.167
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 25000
+
+reactive:
+  feign:
+    client:
+      config:
+        default:
+          connectTimeout: 60000
+          readTimeout: 25000
+
+auction:
+  wallet:
+    privateKey: "0fcde1089d02d7917ae39c7236cccbb5d68274e62cc46a7f3434d39e687ceae7"
+    publicKey: "0xCfd00ac1D646AFd6Ac902F3d401D3Ec56a08217a"

@@ -1,0 +1,52 @@
+.market-item-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.market-item-img {
+	width: 300px;
+}
+
+.market-item-title {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.market-item-cost {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.market-item-rating {
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #f6f7f8;
+	margin-bottom: 20px;
+}
+
+.market-item-review {
+	font-weight: 400;
+	font-size: 16px;
+	color: #c1c8ce;
+	margin: 0 20px;
+}
+
+.market-item-add-review {
+	font-weight: 400;
+	font-size: 16px;
+	color: #33a0ff;
+}
+
+.market-item-size {
+	display: block !important;
+	width: 100px;
+	margin-bottom: 20px;
+}

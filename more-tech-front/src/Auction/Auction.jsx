@@ -1,0 +1,21 @@
+import './Auction.css';
+import { useEffect, useState } from 'react';
+import { axiosConfig } from '../utils/axios';
+import { AuctionCard } from '../AuctionCard/AuctionCard';
+
+export function Auction() {
+	const [NFTs, setNFTs] = useState([]);
+
+	useEffect(() => {
+		axiosConfig.get('/auction/lots').then((response) => setNFTs(response.data));
+	}, []);
+
+	return (
+		<div className='auction-wrapper'>
+			<div className='auction-page-title'>Все проекты</div>
+			<div className='auction-page-all-item'>
+				{NFTs && NFTs.map((item) => <AuctionCard key={item.id} item={item} />)}
+			</div>
+		</div>
+	);
+}

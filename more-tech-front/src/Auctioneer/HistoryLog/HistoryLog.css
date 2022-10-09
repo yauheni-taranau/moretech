@@ -1,0 +1,26 @@
+.history-log-wrapper {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.history-log-avatar {
+	display: flex;
+}
+
+.history-log-bet {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.history-log-username {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.history-log-time {
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.87);
+}

@@ -1,0 +1,29 @@
+.header {
+	height: 60px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.87);
+	letter-spacing: 0.17px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.header-balance-block {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.header-balance-profile {
+	display: flex;
+}

@@ -1,0 +1,78 @@
+.auctioneer-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.auctioneer-live-bet {
+	font-weight: 600;
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+}
+
+.auctioneer-live-label {
+	font-weight: 500;
+	font-size: 14px;
+	color: #7b7b7b;
+	margin-bottom: 10px;
+}
+
+.auctioneer-info {
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.auctioneer-title {
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 16px;
+}
+
+.auctioneer-description {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.auctioneer-image {
+	border-radius: 10px;
+	width: 400px;
+	height: 450px;
+}
+
+.auctioneer-head {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.auctioneer-live-timer {
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.auctioneer-head-bet-block {
+	margin-right: 20px;
+}
+
+.bet-btn {
+	height: 45px;
+	min-width: 30px !important;
+	margin-right: 10px !important;
+}
+
+.auctioneer-head-step {
+	margin-bottom: 40px;
+}
+
+.auctioneer-bet-history {
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.auctioneer-left {
+	max-width: 30%;
+}

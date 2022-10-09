@@ -1,0 +1,47 @@
+.card {
+	width: 345px;
+	height: 440px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 0px 1px #e0e0e0;
+	border-radius: 4px;
+}
+
+.card-img {
+	height: 200px;
+}
+
+.card-date {
+	color: #1976d2;
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.card-info {
+	height: 190px;
+	padding: 16px;
+}
+
+.card-like {
+	display: flex;
+}
+
+.card-title {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.card-description {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.card-like {
+}
+
+.more-news-btn {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 22px;
+}

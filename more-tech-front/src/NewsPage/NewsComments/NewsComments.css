@@ -1,0 +1,13 @@
+.news-blog-comment-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.news-blog-comments-input-comp {
+	padding: 8px 12px;
+	width: 80%;
+	background: #f0f2f5;
+	border-radius: 100px;
+	border: none;
+	margin: 0 10px;
+}
